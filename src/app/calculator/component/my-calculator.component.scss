@@ -1,4 +1,4 @@
-.calculator{
+.calculator {
   display: flex;
   flex-direction: column;
 
@@ -10,14 +10,14 @@
 
   padding: 30px;
 
-  &__container{
+  &__container {
     display: flex;
     flex-direction: row;
 
     gap: 10px;
   }
 
-  &__input{
+  &__input {
     font-size: 16px;
     font-weight: bold;
 
@@ -26,29 +26,48 @@
     border-bottom: 1px solid black;
   }
 
-  &__select{
+  &__select {
     outline: none;
     font-size: 16px;
     font-weight: bold;
     width: 50px;
   }
 
-  &__result{
+  &__result {
     font-size: 21px;
 
-    span{
+    span {
       font-weight: bold;
-    };
+    }
   }
 
-  &__btn{
+  &__modif {
+    font-size: 16px;
+    outline: none;
+    font-size: 16px;
+    font-weight: bold;
+    width: 50px;
+  }
+
+  &__history {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    &-title {
+      font-weight: bold;
+      font-size: 16px;
+    }
+  }
+
+  &__btn {
     outline: none;
 
     width: fit-content;
     height: 70px;
     font-weight: bold;
     font-size: 17px;
-    border: 1px solid black;
+    border: 2px solid black;
     border-radius: 20px;
     background-color: transparent;
 
