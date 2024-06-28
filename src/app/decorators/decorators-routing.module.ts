@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { DecoratorsPageComponent } from './components/decorators/decorators-page.component';
+import { DecoratorsPageComponent } from './components/decorators-page/decorators-page.component';
+
 
 const routes: Routes = [
     {

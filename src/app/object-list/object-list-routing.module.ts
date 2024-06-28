@@ -1,8 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { MyObjectListComponent } from './components/list/object-list.component';
-import { MyObjectItemComponent } from './components/item/object-item.component';
-
+import { MyObjectItemComponent } from './componets/item/object-item.component';
+import { MyObjectListComponent } from './componets/list/object-list.component';
 
 const routes: Routes = [
     {
